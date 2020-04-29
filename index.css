@@ -1,0 +1,139 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  padding:0;
+  background-attachment: fixed;
+  background-size: cover;
+  object-fit: cover;
+  object-position: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  overflow: hidden;
+}
+@keyframes test2 {
+  0% {
+    color: chartreuse;
+  }
+
+  10% {
+    color: tomato;
+  }
+
+  20% {
+    color: aqua;
+  }
+
+  30% {
+    color: #efa8e4;
+  }
+
+  40% {
+    color: #8ec6c5;
+  }
+
+  50% {
+    color: #363062;
+  }
+
+  60% {
+    color: #d8ebb5;
+  }
+
+  70% {
+    color: #f76a8c;
+  }
+
+  80% {
+    color: #c70039;
+  }
+
+  90% {
+    color: #f5fcc1;
+  }
+
+  100% {
+    color: #596157;
+  }
+}
+h1 {
+  text-align: center;
+  margin: 20px auto;
+  font-size: 100px;
+  font-family: cursive;
+  animation: test2 3s infinite;
+  animation-timing-function: linear;
+  display: table;
+  z-index:1;
+}
+video{
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left:0;
+  object-fit: cover;
+  object-position: center;
+  height: 100vh;
+  width: 100vw;
+}
+.text{
+  height: 100vh;
+  width:100vw;
+  padding: 0;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h2{
+  text-align: center;
+  margin: 20px auto;
+  font-size: 120px;
+  font-family: cursive;
+  animation: test2 3s infinite;
+  animation-timing-function: linear;
+  display: table;
+  z-index:1;
+  letter-spacing: 10px;
+}
+p{
+  text-align: center;
+  margin: 20px auto;
+  font-size: 30px;
+  font-family: cursive;
+  animation: test2 3s infinite;
+  animation-timing-function: linear;
+  display: table;
+  z-index:1;
+}
+button{
+  text-align: center;
+  margin: 20px auto;
+  font-size: 30px;
+  font-family: cursive;
+  animation: test2 3s infinite;
+  animation-timing-function: linear;
+  display: table;
+  z-index:1;
+
+}
+.btn{
+  border-width: 0.5;
+}
+.over{
+  position: absolute;
+  top:0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  background: black;
+  opacity: 0.8;
+}
